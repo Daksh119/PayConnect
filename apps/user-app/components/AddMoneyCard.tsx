@@ -26,7 +26,7 @@ export const AddMoney = () => {
             setError("Please enter a valid amount.");
             return;
         }
-        setError("");  // Clear any existing errors
+        setError("");
         await createOnRampTransaction(provider, value);
         window.location.href = redirectUrl || "";
     };
@@ -55,7 +55,7 @@ export const AddMoney = () => {
                     }))}
                 />
                 <div className="flex justify-center pt-4">
-                    <Button onClick={handleAddMoney} disabled={value <= 0}>
+                    <Button onClick={handleAddMoney}>
                         Add Money
                     </Button>
                 </div>
