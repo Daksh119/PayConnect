@@ -9,7 +9,7 @@
 
 ## Design
 
-
+![Alt text](./images/Untitled-2024-07-09-2317.png)
 
 ### Install Dependencies (frontend & backend)
 
@@ -37,6 +37,13 @@ Go to `packages/db`
 
 ```
 
+## ScreenShots
+
+![Alt text](./images/Screenshot%202024-07-09%20234000.png)
+
+![Alt text](./images/Screenshot%202024-07-09%20234027.png)
+
+![Alt text](./images/Screenshot%202024-07-09%20234101.png)
 
 ## Build & Deploy
 
