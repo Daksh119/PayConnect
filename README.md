@@ -1,13 +1,14 @@
-# Around The World - Places Guide
+# PayConnect - Wallet App
 
 ## Features
 
-- Users can share places they recommend and their locations with other users
-- User profile (Authentication & Autherization)
-- Multiple data models, image upload using multer etc.
-- Places management
-- Leaflet maps
-- Database management (places & users)
+- User friendly, online wallet system.
+- Supports On ramp transactions, from the bank to the wallet
+- Seperate Webhook handler server to support on ramp transactions.
+- Transactions to/fromm other users are supported.
+
+## Design
+
 
 
 ### Install Dependencies (frontend & backend)
